@@ -8,7 +8,7 @@ import Stripe from "stripe";
 const placeOrder = async(req,res)=>{
 
     const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-    const frontend_url = "https://cheatmeal.onrender.com"
+    const frontend_url = "http://localhost:5173"
     try{
         const newOrder = new orderModel({
             userId : req.body.userId,
