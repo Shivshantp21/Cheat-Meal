@@ -6,7 +6,7 @@ export const StoreContext = createContext(null);
 const StoreContextProvider = (props) => {
 
     const [CartItem,setCartItem] = useState({});
-    const url = "https://cheat-meal-backend-d3s6.onrender.com";
+    const url = "https://cheat-meal-backend-d3s6.onrender.comm";
     const [token,setToken] = useState("");
 
     const [food_list, setFoodList] = useState([]);
