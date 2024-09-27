@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
-  const url = "https://cheat-meal-admin-xp5n.onrender.com"
+  const url = "https://cheat-meal-backend-d3s6.onrender.com"
   return (
     <div>
       <ToastContainer/>
